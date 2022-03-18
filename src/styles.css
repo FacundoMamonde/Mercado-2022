@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(221, 221, 221);
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+table {
+  width: 420px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+#pie {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: grey;
+}
+
+#inventario {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sinBullet {
+  list-style-type: none;
+}
+
+.bulletCirculo {
+  list-style-type: circle;
+}
